@@ -594,6 +594,6 @@
 		"Sensor - 588": " float",
 		"Sensor - 589": " float",
 		"Sensor - 590": " float",
-		"Output" : "Integer"
+		"Good/Bad" : "Integer"
 	}
 }

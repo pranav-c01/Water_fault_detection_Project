@@ -1,0 +1,75 @@
+2024-07-19/18:20:07		Start of Validation on files for prediction!!
+2024-07-19/18:20:12		Raw Data Validation Complete!!
+2024-07-19/18:20:12		Starting Data Transforamtion!!
+2024-07-19/18:20:16		DataTransformation Completed!!!
+2024-07-19/18:20:16		Creating Prediction_Database and tables on the basis of given schema!!!
+2024-07-19/18:21:57		Table creation Completed!!
+2024-07-19/18:21:57		Insertion of Data into Table started!!!!
+2024-07-19/18:23:21		Insertion in Table completed!!!
+2024-07-19/18:23:21		Deleting Good Data Folder!!!
+2024-07-19/18:23:21		Good_Data folder deleted!!!
+2024-07-19/18:23:21		Moving bad files to Archive and deleting Bad_Data folder!!!
+2024-07-19/18:23:21		Bad files moved to archive!! Bad folder Deleted!!
+2024-07-19/18:23:21		Validation Operation completed!!
+2024-07-19/18:23:21		Extracting csv file from table
+2024-07-19/18:23:22		Start of Prediction
+2024-07-19/18:23:22		Entered the get_data method of the Data_Getter class
+2024-07-19/18:23:22		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-07-19/18:23:22		Entered the is_null_present method of the Preprocessor class
+2024-07-19/18:23:22		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-07-19/18:23:22		Entered the impute_missing_values method of the Preprocessor class
+2024-07-19/18:23:23		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2024-07-19/18:23:23		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2024-07-19/18:23:23		Error occured while running the prediction!! Error:: Cannot interpret '<attribute 'dtype' of 'numpy.generic' objects>' as a data type
+2024-07-19/19:30:55		Start of Validation on files for prediction!!
+2024-07-19/19:31:00		Raw Data Validation Complete!!
+2024-07-19/19:31:00		Starting Data Transforamtion!!
+2024-07-19/19:31:06		DataTransformation Completed!!!
+2024-07-19/19:31:06		Creating Prediction_Database and tables on the basis of given schema!!!
+2024-07-19/19:32:04		Start of Validation on files for prediction!!
+2024-07-19/19:32:09		Raw Data Validation Complete!!
+2024-07-19/19:32:09		Starting Data Transforamtion!!
+2024-07-19/19:32:12		DataTransformation Completed!!!
+2024-07-19/19:32:12		Creating Prediction_Database and tables on the basis of given schema!!!
+2024-07-19/19:34:07		Table creation Completed!!
+2024-07-19/19:34:07		Insertion of Data into Table started!!!!
+2024-07-19/20:12:10		Start of Validation on files for prediction!!
+2024-07-19/20:12:16		Raw Data Validation Complete!!
+2024-07-19/20:12:16		Starting Data Transforamtion!!
+2024-07-19/20:12:20		DataTransformation Completed!!!
+2024-07-19/20:12:20		Creating Prediction_Database and tables on the basis of given schema!!!
+2024-07-19/20:15:36		Table creation Completed!!
+2024-07-19/20:15:36		Insertion of Data into Table started!!!!
+2024-07-19/20:16:58		Insertion in Table completed!!!
+2024-07-19/20:16:58		Deleting Good Data Folder!!!
+2024-07-19/20:16:58		Good_Data folder deleted!!!
+2024-07-19/20:16:58		Moving bad files to Archive and deleting Bad_Data folder!!!
+2024-07-19/20:16:58		Bad files moved to archive!! Bad folder Deleted!!
+2024-07-19/20:16:58		Validation Operation completed!!
+2024-07-19/20:16:58		Extracting csv file from table
+2024-07-19/20:16:59		Start of Prediction
+2024-07-19/20:16:59		Entered the get_data method of the Data_Getter class
+2024-07-19/20:16:59		Data Load Successful.Exited the get_data method of the Data_Getter class
+2024-07-19/20:16:59		Entered the is_null_present method of the Preprocessor class
+2024-07-19/20:16:59		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2024-07-19/20:16:59		Entered the impute_missing_values method of the Preprocessor class
+2024-07-19/20:17:00		Imputing missing values Successful. Exited the impute_missing_values method of the Preprocessor class
+2024-07-19/20:17:00		Entered the get_columns_with_zero_std_deviation method of the Preprocessor class
+2024-07-19/20:17:01		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class
+2024-07-19/20:17:01		Entered the remove_columns method of the Preprocessor class
+2024-07-19/20:17:01		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2024-07-19/20:17:01		Entered the load_model method of the File_Operation class
+2024-07-19/20:17:01		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2024-07-19/20:17:01		Entered the find_correct_model_file method of the File_Operation class
+2024-07-19/20:17:01		Exited the find_correct_model_file method of the Model_Finder class.
+2024-07-19/20:17:01		Entered the load_model method of the File_Operation class
+2024-07-19/20:17:01		Model File RandomForest0 loaded. Exited the load_model method of the Model_Finder class
+2024-07-19/20:17:01		Entered the find_correct_model_file method of the File_Operation class
+2024-07-19/20:17:01		Exited the find_correct_model_file method of the Model_Finder class.
+2024-07-19/20:17:01		Entered the load_model method of the File_Operation class
+2024-07-19/20:17:01		Model File RandomForest1 loaded. Exited the load_model method of the Model_Finder class
+2024-07-19/20:17:01		Entered the find_correct_model_file method of the File_Operation class
+2024-07-19/20:17:01		Exited the find_correct_model_file method of the Model_Finder class.
+2024-07-19/20:17:01		Entered the load_model method of the File_Operation class
+2024-07-19/20:17:01		Model File RandomForest2 loaded. Exited the load_model method of the Model_Finder class
+2024-07-19/20:17:01		End of Prediction
